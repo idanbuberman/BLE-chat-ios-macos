@@ -66,6 +66,14 @@ final class BluetoothScanViewModel: ObservableObject {
     init(service: BluetoothServiceProtocol = BluetoothService.shared) {
         self.service = service
         
+        attachDeviceUpdated()
+        
+        attachMessageHandler()
+        
+        attachDeviceDisconnected()
+    }
+    
+    func attachDeviceUpdated() {
         service.onDevicesUpdated = { [weak self] devices in
             guard let self = self else { return }
             
@@ -79,9 +87,9 @@ final class BluetoothScanViewModel: ObservableObject {
                 }
             }
         }
-        
-        attachMessageHandler()
-        
+    }
+    
+    func attachDeviceDisconnected() {
         service.onDeviceDisconnected = { [weak self] deviceID, error in
             guard let self = self else { return }
             guard let current = self.connectedDevice,
@@ -94,7 +102,6 @@ final class BluetoothScanViewModel: ObservableObject {
         }
     }
     
-    
     // MARK: - Message Handling (Unread Badge)
     
     /// Starts listening for messages from the BLE service and increments
@@ -106,13 +113,37 @@ final class BluetoothScanViewModel: ObservableObject {
             
             DispatchQueue.main.async {
                 self.unreadMessagesCount += 1
+                self.updateBadgeAndNotification(for: text)
             }
         }
     }
     
+    /// Updates the app icon badge and, if the app is backgrounded, triggers a local notification.
+    /// Keep app icon badge in sync with unreadMessagesCount
+    /// Only show a notification if the app is not active
+    private func updateBadgeAndNotification(for text: String) {
+        UNUserNotificationCenter.current().setBadgeCount(unreadMessagesCount)
+        
+        if !AppLifecycle.shared.isActive {
+            let content = UNMutableNotificationContent()
+            content.title = connectedDevice?.name ?? "New BLE message"
+            content.body = text
+            content.badge = NSNumber(value: unreadMessagesCount)
+            content.sound = .default
+            
+            let request = UNNotificationRequest(
+                identifier: UUID().uuidString,
+                content: content,
+                trigger: nil // deliver immediately
+            )
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        }
+    }
     /// Resets the unread messages counter (typically when entering the chat view).
     func clearUnreadMessages() {
         unreadMessagesCount = 0
+        UNUserNotificationCenter.current().setBadgeCount(0)
     }
     
     
