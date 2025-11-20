@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A079BB8B2ECE051300EF5FCC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A079BB8A2ECE051300EF5FCC /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A60190B82ECC5F720087AD44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60190A12ECC5F710087AD44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60190A82ECC5F710087AD44;
+			remoteInfo = BTMessager;
+		};
+		A60190C22ECC5F720087AD44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60190A12ECC5F710087AD44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60190A82ECC5F710087AD44;
+			remoteInfo = BTMessager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A079BB8A2ECE051300EF5FCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A60190A92ECC5F710087AD44 /* BTMessager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTMessager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60190B72ECC5F720087AD44 /* BTMessagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTMessagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60190C12ECC5F720087AD44 /* BTMessagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTMessagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A60190AB2ECC5F710087AD44 /* BTMessager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BTMessager;
+			sourceTree = "<group>";
+		};
+		A60190BA2ECC5F720087AD44 /* BTMessagerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BTMessagerTests;
+			sourceTree = "<group>";
+		};
+		A60190C42ECC5F720087AD44 /* BTMessagerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BTMessagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60190A62ECC5F710087AD44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60190B42ECC5F720087AD44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60190BE2ECC5F720087AD44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60190A02ECC5F710087AD44 = {
+			isa = PBXGroup;
+			children = (
+				A079BB8A2ECE051300EF5FCC /* README.md */,
+				A60190AB2ECC5F710087AD44 /* BTMessager */,
+				A60190BA2ECC5F720087AD44 /* BTMessagerTests */,
+				A60190C42ECC5F720087AD44 /* BTMessagerUITests */,
+				A60190AA2ECC5F710087AD44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60190AA2ECC5F710087AD44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60190A92ECC5F710087AD44 /* BTMessager.app */,
+				A60190B72ECC5F720087AD44 /* BTMessagerTests.xctest */,
+				A60190C12ECC5F720087AD44 /* BTMessagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60190A82ECC5F710087AD44 /* BTMessager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60190CB2ECC5F720087AD44 /* Build configuration list for PBXNativeTarget "BTMessager" */;
+			buildPhases = (
+				A60190A52ECC5F710087AD44 /* Sources */,
+				A60190A62ECC5F710087AD44 /* Frameworks */,
+				A60190A72ECC5F710087AD44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A60190AB2ECC5F710087AD44 /* BTMessager */,
+			);
+			name = BTMessager;
+			packageProductDependencies = (
+			);
+			productName = BTMessager;
+			productReference = A60190A92ECC5F710087AD44 /* BTMessager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60190B62ECC5F720087AD44 /* BTMessagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60190CE2ECC5F720087AD44 /* Build configuration list for PBXNativeTarget "BTMessagerTests" */;
+			buildPhases = (
+				A60190B32ECC5F720087AD44 /* Sources */,
+				A60190B42ECC5F720087AD44 /* Frameworks */,
+				A60190B52ECC5F720087AD44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60190B92ECC5F720087AD44 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A60190BA2ECC5F720087AD44 /* BTMessagerTests */,
+			);
+			name = BTMessagerTests;
+			packageProductDependencies = (
+			);
+			productName = BTMessagerTests;
+			productReference = A60190B72ECC5F720087AD44 /* BTMessagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A60190C02ECC5F720087AD44 /* BTMessagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60190D12ECC5F720087AD44 /* Build configuration list for PBXNativeTarget "BTMessagerUITests" */;
+			buildPhases = (
+				A60190BD2ECC5F720087AD44 /* Sources */,
+				A60190BE2ECC5F720087AD44 /* Frameworks */,
+				A60190BF2ECC5F720087AD44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60190C32ECC5F720087AD44 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A60190C42ECC5F720087AD44 /* BTMessagerUITests */,
+			);
+			name = BTMessagerUITests;
+			packageProductDependencies = (
+			);
+			productName = BTMessagerUITests;
+			productReference = A60190C12ECC5F720087AD44 /* BTMessagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60190A12ECC5F710087AD44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A60190A82ECC5F710087AD44 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A60190B62ECC5F720087AD44 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A60190A82ECC5F710087AD44;
+					};
+					A60190C02ECC5F720087AD44 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A60190A82ECC5F710087AD44;
+					};
+				};
+			};
+			buildConfigurationList = A60190A42ECC5F710087AD44 /* Build configuration list for PBXProject "BTMessager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60190A02ECC5F710087AD44;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A60190AA2ECC5F710087AD44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60190A82ECC5F710087AD44 /* BTMessager */,
+				A60190B62ECC5F720087AD44 /* BTMessagerTests */,
+				A60190C02ECC5F720087AD44 /* BTMessagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60190A72ECC5F710087AD44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A079BB8B2ECE051300EF5FCC /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60190B52ECC5F720087AD44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60190BF2ECC5F720087AD44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60190A52ECC5F710087AD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60190B32ECC5F720087AD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60190BD2ECC5F720087AD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60190B92ECC5F720087AD44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60190A82ECC5F710087AD44 /* BTMessager */;
+			targetProxy = A60190B82ECC5F720087AD44 /* PBXContainerItemProxy */;
+		};
+		A60190C32ECC5F720087AD44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60190A82ECC5F710087AD44 /* BTMessager */;
+			targetProxy = A60190C22ECC5F720087AD44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A60190C92ECC5F720087AD44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DAFW3KBSYT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A60190CA2ECC5F720087AD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DAFW3KBSYT;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A60190CC2ECC5F720087AD44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BTMessager/BTMessager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PBL29XC3D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to communicate with your iOS app.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.btdisplay.BTMessager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A60190CD2ECC5F720087AD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BTMessager/BTMessager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PBL29XC3D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to communicate with your iOS app.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.btdisplay.BTMessager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A60190CF2ECC5F720087AD44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAFW3KBSYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.btdisplay.BTMessagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTMessager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BTMessager";
+			};
+			name = Debug;
+		};
+		A60190D02ECC5F720087AD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAFW3KBSYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.btdisplay.BTMessagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTMessager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BTMessager";
+			};
+			name = Release;
+		};
+		A60190D22ECC5F720087AD44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAFW3KBSYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.btdisplay.BTMessagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BTMessager;
+			};
+			name = Debug;
+		};
+		A60190D32ECC5F720087AD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAFW3KBSYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.btdisplay.BTMessagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BTMessager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60190A42ECC5F710087AD44 /* Build configuration list for PBXProject "BTMessager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60190C92ECC5F720087AD44 /* Debug */,
+				A60190CA2ECC5F720087AD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60190CB2ECC5F720087AD44 /* Build configuration list for PBXNativeTarget "BTMessager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60190CC2ECC5F720087AD44 /* Debug */,
+				A60190CD2ECC5F720087AD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60190CE2ECC5F720087AD44 /* Build configuration list for PBXNativeTarget "BTMessagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60190CF2ECC5F720087AD44 /* Debug */,
+				A60190D02ECC5F720087AD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60190D12ECC5F720087AD44 /* Build configuration list for PBXNativeTarget "BTMessagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60190D22ECC5F720087AD44 /* Debug */,
+				A60190D32ECC5F720087AD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60190A12ECC5F710087AD44 /* Project object */;
+}
